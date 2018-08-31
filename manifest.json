@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "舰队collection 自动远征Plus",
+  "description": "自动远征Plus",
+  "browser_action": {
+    "default_icon": "Resource/Image/ico.png",
+    "default_popup":"popup.html",
+    "default_title": "这是一个舰队collection自动远征的插件"
+  },
+  "permissions": ["contextMenus"],
+  "options_page":"options.html",
+  "background": {
+        "page": "background.html"
+  },
+  "devtools_page": "devtools.html"
+}
